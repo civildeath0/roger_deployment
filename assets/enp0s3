@@ -1,0 +1,4 @@
+iface	enp0s3	inet	static
+	address	192.168.22.247
+	netmask	255.255.255.252
+	gateway	192.168.20.1
