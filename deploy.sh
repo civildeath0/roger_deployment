@@ -17,7 +17,7 @@ sudo cp ./assets/sshd_config /etc/ssh/
 
 sudo yes "y" | ssh-keygen -q -N "" > /dev/null
 sudo mkdir ~/.ssh
-sudo cat ./assets/id_rsa.pub > ~./ssh/authorized_keys
+sudo cat ./assets/id_rsa.pub > ~/.ssh/authorized_keys
 
 sudo service sshd restart
 
